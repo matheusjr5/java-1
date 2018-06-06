@@ -21,7 +21,7 @@ public class VerficarObrigatoriadadeVotar {
 		} else if (idade == 16 || idade == 17 || idade > 100){
 			System.out.println("Voto Facultativo");
 		} else {
-			System.out.println("Voto Obrigatório");
+			System.out.println("Voto Obrigatório ");
 		}
 		
 		
