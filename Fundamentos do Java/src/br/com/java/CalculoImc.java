@@ -23,5 +23,6 @@ public class CalculoImc {
 		// o / divide o peso pela altura
 		// o * multiplica a alutra pela altura
 		System.out.println("resultado de imc : " + imc);	
+		
 	}
 }
