@@ -13,7 +13,7 @@ public class JogoDado {
 			System.out.println("Face do dado: " + face);
 			System.out.println("Deseja jogar novamente (s/n)? ");
 			opcao = teclado.next().charAt(0);
-		}while(opcao == 's');
+		}while(opcao == '1');
 
 	}
 
