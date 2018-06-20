@@ -1,5 +1,5 @@
 /**
- * atividade de avaliaÁ„o - Churrascoladora
+ * atividade de avalia√ß√£o - Churrascoladora
  * @author Matheus Muniz, Alex Yudy, Kevin Souza
  */
 package br.com.java;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Churrascoladora {
 
 	public static void main(String[] args) {
-		// vari·veis
+		// vari√°veis
 		int homem, mulher, crianca,mulhercerveja,criancarefri,mulherefri,homemcerveja,totalchurras;
 		double cerveja, carne, refri, adultocarne, criancacarne,carvao,valorcarne,valorefri,valorcerveja,valorchurras;
 		Scanner teclado = new Scanner(System.in);
@@ -20,17 +20,17 @@ public class Churrascoladora {
 		homem = teclado.nextInt();
 		System.out.println("Quantidade de mulheres: ");
 		mulher = teclado.nextInt();
-		System.out.println("Quantidade de crianÁas: ");
+		System.out.println("Quantidade de crian√ßas: ");
 		crianca = teclado.nextInt();
-		System.out.println("PreÁo mÈdio do Kg da Carne: ");
+		System.out.println("Pre√ßo m√©dio do Kg da Carne: ");
 		carne = teclado.nextDouble();
-		System.out.println("PreÁo mÈdio da lata de cerveja: ");
+		System.out.println("Pre√ßo m√©dio da lata de cerveja: ");
 		cerveja = teclado.nextDouble();
-		System.out.println("PreÁo mÈdio da lata de refri: ");
+		System.out.println("Pre√ßo m√©dio da lata de refri: ");
 		refri = teclado.nextDouble();
 		// processamento  
 		
-		//critÈrios
+		//crit√©rios
 		adultocarne = (homem+mulher*0.300);
 		criancacarne = (crianca*0.100);
 		homemcerveja =(homem*12);
@@ -43,7 +43,7 @@ public class Churrascoladora {
 		totalchurras = (homem+mulher);
 		valorchurras = (valorcerveja+valorcarne+valorefri);
 		
-		//calculando o 
+		//calculando o total do churras
 
 		// saida
 		System.out.println("");
